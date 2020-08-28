@@ -1,41 +1,62 @@
-.headerContainer{
+.headerContainer {
     background-color: #219653;
-    color:white;
+    color: white;
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.logoHolder{
-    height: 100%;
-    width: 150px;
+
+.logoHolder {
+    /* height: 100%; */
+    /* width: 450px; */
     padding: 10px;
     position: center;
+    padding-left: 25px;
 }
-.logoHolder a h1{ 
+
+.logoHolder a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+.logoHolder a h1 {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
 }
-.headerMenu{
+
+.headerMenu {
     display: flex;
     list-style-type: none;
     margin: 0;
+    padding-right: 25px;
 }
-.headerMenu li{
-    width: 100px;
+
+.nameHeader {
+    text-transform: uppercase;
+}
+
+.headerMenu li {
+    /* width: 100px; */
     height: 100%;
     line-height: 60px;
     text-align: center;
+    padding: 0 15px;
 }
-.headerMenu li a{
+
+.headerMenu li a {
     text-decoration: none;
     color: white;
 }
-.headerMenu li:hover{
+
+.headerMenu li:hover {
     backdrop-filter: brightness(90%);
 }
-.fa{
+
+.fa {
     width: 30px;
 }
